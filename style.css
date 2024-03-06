@@ -44,6 +44,7 @@ body {
 	border-radius: 50px;
 	padding: 5px;
 	background-image: url(Resources/search_ico.png);
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -69,12 +70,12 @@ body {
 }
 
 .details {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	display: grid;
+	grid-template-columns: auto auto;
 	justify-content: space-evenly;
 	margin-top: 40px;
 	font-size: 25px;
+	gap: 20px;
 }
 
 .ico {
