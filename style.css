@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+
+body {
+	background-color: #414141;
+	background-image: url(humidity.png);
+}
+
+.card {
+	width: 90%;
+	/* height: 500px; */
+	max-width: 600px;
+	margin: 40px auto 0px;
+	border-radius: 15px;
+	background-image: linear-gradient(135deg, #00feba 0%, #5b548a);
+	text-align: center;
+	padding: 30px 30px;
+}
+
+.search {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.search_input {
+	outline: none;
+	width: 75%;
+	height: 100%;
+	border-radius: 50px;
+	padding: 15px 35px;
+	border: 0px;
+	font-size: 20px;
+}
+
+.button {
+	width: 20%;
+	background-color: #fff;
+	border-radius: 50px;
+	padding: 5px;
+	background-image: url(Resources/search_ico.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.weather_img {
+	width: 100px;
+	margin: 15px auto 10px;
+}
+
+.state {
+	color: #fff;
+	font-family: cursive;
+}
+.temp {
+	font-size: 45px;
+	color: aliceblue;
+}
+
+.location {
+	font-size: 45px;
+	color: aliceblue;
+	margin-top: 5px;
+}
+
+.details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	font-size: 25px;
+}
+
+.ico {
+	width: 50px;
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.content {
+	margin-top: 50px;
+	font-size: 35px;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (min-width: 530px) {
+	.horizontal {
+		flex-direction: row;
+	}
+	.search_input {
+		width: 85%;
+	}
+	.button {
+		width: 13%;
+	}
+}

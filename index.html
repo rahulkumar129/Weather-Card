@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather card</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="card">
+			<div class="search">
+				<input
+					class="search_input"
+					id="input"
+					placeholder="Enter city name"
+					type="text"
+				/>
+				<div class="button" onclick="update()">
+					<!-- <img class="search_icon" src="search_ico.png" alt="" /> -->
+				</div>
+			</div>
+			<div id="error" class="hidden content">
+				Please enter a valid city name
+			</div>
+			<div class="content" id="content">
+				<div class="state" id="state">Rainy</div>
+				<img
+					class="weather_img"
+					id="weather"
+					src="Resources\Weather\09d.png"
+					alt=""
+				/>
+				<div class="temp" id="temp">27°C</div>
+				<div class="location" id="location">New York</div>
+				<div class="details">
+					<div class="humidity horizontal">
+						<img class="ico" src="Resources/humidity.png" alt="" />
+						<div>
+							<div id="humidity">45%</div>
+							<div>Humidity</div>
+						</div>
+					</div>
+					<div class="wind horizontal">
+						<img class="ico" src="Resources/wind.png" alt="" />
+						<div>
+							<div id="wind">10.45 KM/H</div>
+							<div>Wind Speed</div>
+						</div>
+					</div>
+				</div>
+				<div class="details">
+					<div class="horizontal">
+						<img class="ico" src="Resources/sunrise.png" alt="" />
+						<div>
+							<div id="sunrise">4:20</div>
+							<div>Sunrise</div>
+						</div>
+					</div>
+					<div class="horizontal">
+						<img class="ico" src="Resources/sunset.png" alt="" />
+						<div>
+							<div id="sunset">19:04</div>
+							<div>Sunset</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
