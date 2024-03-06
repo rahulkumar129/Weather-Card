@@ -1,7 +1,7 @@
 # Weather Card Project
 
 ## Overview
-This project is a simple web application that allows users to check the current weather conditions of a city. Users can input the city name into the search bar, and the application will fetch the weather data from the OpenWeatherMap API (https://openweathermap.org/api) and display it on the screen.
+This project is a simple web application that allows users to check the current weather conditions of a city. Users can input the city name into the search bar, and the application will fetch the weather data from the OpenWeatherMap API (https://openweathermap.org/api) and display it on the screen. You can view the Weather Card project live [here](https://rahulkumar129.github.io/Weather-Card/).
 
 ## Features
 - Input field for entering city name.
